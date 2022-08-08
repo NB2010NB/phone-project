@@ -1,0 +1,111 @@
+/* body{
+  background-color: rgb(160, 206, 246);
+} */
+#logoFacebook{
+  width: 5vw;
+  height: 5vh;
+}
+#logoGit{
+  width: 5vw;
+  height: 5vh;
+}
+#logoLink{
+  width: 5vw;
+  height: 5vh;
+}
+h1{
+  color: rgb(10, 4, 4);
+}
+#phones{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(64, 162, 254);
+border-radius: 5px;
+}
+.form-control{
+  border: 2px solid black;
+  width: 50vw;
+  border-radius: 15px;
+}
+.item1 {
+height: 1vh;
+  grid-area: header;
+  
+}
+
+.item2 {
+  grid-area: menu;
+  
+}
+.item3 {
+  grid-area: main;
+
+}
+.item4{
+
+}
+.item5 {
+  grid-area: footer;
+  display: flex;
+  justify-content:space-between;
+  font-size: larger;
+}
+
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-areas:
+    'header header header header header header'
+    'side-bar main main main main main'
+    'side-bar main main main main main'
+    'side-bar main main main main main'
+    'side-bar main main main main main'
+    'side-bar main main main main main'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  /* background-color: #060809; */
+  /* opacity: 0.65; */
+  padding: 10px;
+}
+
+.grid-container>div {
+  text-align: center;
+  padding: 20px 0;
+  padding: 60px;
+  font-size: 20px;
+}
+
+#logo {
+  width: 29vw;
+  height: 29vh;
+  position: relative;
+  left: 38px;
+  
+}
+#navbarNavAltMarkup{
+  position: relative;
+  left: 386px; 
+}
+.logoProfile {
+  width: 4vw;
+  height: 4vh;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+#pages {
+  position: relative;
+  right: 550px;
+  bottom: 70px;
+  border:solid black 2px;
+  border-radius: 30px;
+  background-color: rgba(81, 245, 97, 0.8);
+}
+#phones{
+ display: flex;
+ flex-wrap:wrap; 
+}
+/* .logo{
+  width: 150px;
+  height: 120px;
+} */
